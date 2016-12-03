@@ -1,0 +1,83 @@
+/*
+header: #A0D5D6
+section: #789AA1
+h1: #DCEBDD
+h2: #AD9A27
+footer: #304345
+*/
+/*Neutralidad*/
+html, body, article, footer, h3, nav{
+	margin:0;
+	padding:0;
+}
+html, body{
+	background:#fff;
+}
+header, article, aside, footer, nav{
+	display:block;
+}
+body{
+	margin:0 auto;
+	width:865px;
+}
+/*Etiquetas estructurales*/
+header{
+	height:40px;
+	background:#bf0426;
+}
+section{
+	height:520px;
+	background:#690011;
+}
+
+footer{
+	height:60px;
+	background: #cc2738;
+}
+nav{
+	font-size:.7em;
+	color:#AD9A27;
+	text-align:center;
+	padding-top:0.5em;
+}
+/*Estilos*/
+h1{
+	text-align:center;
+	color:#f2d99c;
+}
+h2{
+	text-align:center;
+	color:#AD9A27;
+}
+h3{
+	clear:both;
+	text-align:center;
+	color:#f2d99c;
+	font-size:.8em;
+	padding-top:1em;
+}
+p{
+	padding-top:1em;
+	padding-left:1em;
+	padding-right:1em;
+}
+ul, li{
+	display:inline;
+}
+a{
+	text-decoration:none;
+	text-aling:center;
+	color:#AD9A27;
+}
+video{
+	padding-top:1em;
+}
+/*Clases*/
+.der{
+	float:right;
+	margin-left:1em;
+}
+.izq{
+	float:left;
+	margin-right:1em;
+}
